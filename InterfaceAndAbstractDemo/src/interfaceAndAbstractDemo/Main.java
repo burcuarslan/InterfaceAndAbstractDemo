@@ -15,7 +15,7 @@ public class Main {
 		
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		Customer customer=new Customer(1, "BURCU", "ARSLAN", 2001, "10595561114");
+		Customer customer=new Customer(1, "BURCU", "ARSLAN", 2001, "");
     	customerManager.save(customer);   	
 
 	}
